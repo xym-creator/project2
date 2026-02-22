@@ -1,0 +1,71 @@
+.box1 {
+    text-align: right;
+}
+
+#h1 {
+    color: orangered;
+
+}
+
+.btn1 {
+    background-color: orangered;
+    color: azure;
+}
+
+.logo {
+    margin-top: -5px;
+}
+
+.box {
+    margin: auto;
+
+}
+
+#banner {
+    background-image: url(rool2.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* background-position: center; */
+   
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 200px 0;
+}
+
+
+@media(max-width: 992px) {
+
+    .logo,
+    .box1 {
+        text-align: center;
+    }
+   #banner{
+    background-position: right;
+   }
+  
+}
+
+#sec3{
+    text-align: center;
+    padding: 50px 0;
+}
+#sec4{
+    background-color: orangered;
+    padding: 50px 0;
+}
+
+
+
+@media (max-width: 768px) {
+  /* .carousel-inner {
+    max-height: 300px;
+  } */
+}
+@media (max-width:460px){
+    .rool{
+       margin-left: 100px;    
+    }
+}
